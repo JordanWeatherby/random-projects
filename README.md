@@ -32,6 +32,6 @@ Allows you to play noughts and crosses against another human opponent on the com
 
 Moves are inputted as their coordinates
 
-`1 1 | 1 2 | 1 3`
-`2 1 | 2 2 | 2 3`
-`3 1 | 3 2 | 3 3`
+`1 1 | 1 2 | 1 3`  
+`2 1 | 2 2 | 2 3`  
+`3 1 | 3 2 | 3 3`  
