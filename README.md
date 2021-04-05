@@ -43,6 +43,10 @@ Similar to previous but for video game site Giant Bomb.
 
 Requires valid login cookies for premium content. Includes random delay to avoid being bot detected.
 
+## rtlinkscraper (2020)
+
+Chrome browser extension to extract links in plaintext from the site roosterteeth.com for use with [runrtdl.sh](#runrtdl.sh) 
+
 ## scrabble-solver (2018)
 
 Given a list of letters, this calculates the highest scoring words in the scrabble dictionary to play

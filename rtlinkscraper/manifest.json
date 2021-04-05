@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "RT Link Scraper",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "favicon.png"
+    },
+    "background": {
+        "scripts": ["jquery-3.4.min.js", "event.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "*://roosterteeth.com/*"
+    ],
+    "content_scripts": [{
+        "matches": [
+            "https://roosterteeth.com/*"
+        ],
+        "js": ["jquery-3.4.min.js"]
+    }]
+
+
+}
