@@ -63,8 +63,11 @@ newelo = {}
 for num, game in enumerate(positions, start=1):
     newelo = calcelo(game, newelo)
     print("session "+str(num)+":")
+    print(game)
     sort_orders = sorted(newelo.items(), key=lambda x: x[1], reverse=True)
     for i in sort_orders:
-        print(i[0], i[1])
+        print('{name:<10} {value:<5}'.format(
+        name=i[0], value=i[1])
+    )
     print('-----------')
 
