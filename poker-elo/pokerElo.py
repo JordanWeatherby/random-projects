@@ -17,7 +17,7 @@ except:
 
 
 def calcelo(posList,eloDict={}):
-    k=32 #higher k = more elo swing per calc
+    k=40 #higher k = more elo swing per calc
     d=400
     startingelo = 1000
     
