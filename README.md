@@ -10,6 +10,14 @@ Input is a txt of names of players separated by spaces in order from first place
 
 Uses k=32 and d=400 by default for elo calculations
 
+## dns-updater (2021)
+
+Updates a defined dns record in cloudflare to point to the current computer's IP address
+
+Originally built for my friend to easily update the dns record for my subdomain to point to his server
+
+I have done something similar in the past to run a cron job on my web server so it automatically updates the dns if it detects the server ip has changed
+
 ## scrabble-solver (2018)
 
 Given a list of letters, this calculates the highest scoring words in the scrabble dictionary to play
