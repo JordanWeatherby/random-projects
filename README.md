@@ -18,6 +18,31 @@ Originally built for my friend to easily update the dns record for my subdomain 
 
 I have done something similar in the past to run a cron job on my web server so it automatically updates the dns if it detects the server ip has changed
 
+## youtube-dl-scripts (2020)
+
+I have a few small scripts I have used to interface with [youtube-dl](https://github.com/ytdl-org/youtube-dl) to download media from a number of sites
+
+### `runytpldl.sh` 
+
+This is hooked up to a daily cron job that detects if any new videos have been added to a unlisted 'audio download' youtube playlist and downloads them in 320kbps mp3 format.
+
+### `runytviddlpl.sh`
+
+Very similar to previous except this downloads videos and converts to mp4 format. After conversion the videos are transferred to a mounted drive that is connected to a plex server. Allows a seamless process from adding a video to a playlist from within youtube to watching it locally on plex.
+
+
+### `runrtdl.sh`
+
+Designed to download videos from comedy site RoosterTeeth, this accepts a txt of links to videos to download as well as the location to store them within the /RoosterTeeth/ folder on the local drive.
+
+Requires username/password for premium content
+
+### `rungbdl.sh`
+
+Similar to previous but for video game site Giant Bomb.
+
+Requires valid login cookies for premium content. Includes random delay to avoid being bot detected.
+
 ## scrabble-solver (2018)
 
 Given a list of letters, this calculates the highest scoring words in the scrabble dictionary to play
